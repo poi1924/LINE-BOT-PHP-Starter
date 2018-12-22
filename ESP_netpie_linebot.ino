@@ -6,12 +6,13 @@ const char* ssid     = "CPH1611"; //change this to your SSID
 const char* password = "87654321"; //change this to your PASSWORD
 
 const char* host = "https://fansetting.herokuapp.com/bot.php";//change this to your linebot server ex.http://numpapick-linebot.herokuapp.com/bot.php
-#define APPID   "fan"     //change this to your APPID
-#define KEY     "snG1NLc4SIKthQu"     //change this to your KEY
-#define SECRET  "6ujULYzJlwfD4NmQ2RZhPdIhy"     //change this to your SECRET
+#define APPID   "setting"     //change this to your APPID
+#define KEY     "Jjh58SvoRJldccY"     //change this to your KEY
+#define SECRET  "kkWckjQ33x3NrnbLitUlj1Zd2"     //change this to your SECRET
 
 #define ALIAS   "NodeMCU1" //set name of drvice
 #define TargetWeb "switch" //set target name of web
+
 WiFiClient client;
 String uid = "";
 int timer = 0;
